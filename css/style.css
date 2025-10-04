@@ -1,10 +1,25 @@
-body{
-    background-color: #9b8484;
-}
+:root{
+    /* css properties */
+    --violet:#A729F5;
+    --dark:#313E51;
+    --medium-dark:#3B4D66;
+    --gray:#626C7F;
+    --light-blue:#ABC1E1;
+    --light-gray:#F4F6FA;
+    --white:#FFF;
+    --success:#26D782;
+    --error:#EE5454;
 
+    
+
+}
 .rubik{
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
+}
+body{
+    background-color: var(--dark);
+    color: var(--white);
+}
