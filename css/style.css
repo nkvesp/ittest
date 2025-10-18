@@ -1,25 +1,125 @@
-:root{
-    /* css properties */
-    --violet:#A729F5;
-    --dark:#313E51;
-    --medium-dark:#3B4D66;
-    --gray:#626C7F;
-    --light-blue:#ABC1E1;
-    --light-gray:#F4F6FA;
-    --white:#FFF;
-    --success:#26D782;
-    --error:#EE5454;
+* {
+    box-sizing: border-box;
+}
 
-    
+:root {
+    /* css properties */
+    --violet: #A729F5;
+    --dark: #313E51;
+    --medium-dark: #3B4D66;
+    --gray: #626C7F;
+    --light-blue: #ABC1E1;
+    --light-gray: #F4F6FA;
+    --white: #FFF;
+    --success: #26D782;
+    --error: #EE5454;
+}
+
+body,
+p,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
 
 }
-.rubik{
+
+a {
+    color: inherit;
+}
+
+.rubik {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
 }
-body{
+
+body {
     background-color: var(--dark);
     color: var(--white);
+    background-image: url(../assets/images/pattern-background-desktop-dark.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container {
+    max-width: 1180px;
+    /* background-color: #bb1515; */
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+header {
+    height: 224px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.main {
+    min-height: 456px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+h1 {
+    /* width: 453px; */
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 100%;
+    color: var(--white);
+    margin-bottom: 48px;
+}
+
+h1 span {
+    font-weight: 300;
+
+}
+
+body.quiz {
+    header {
+        justify-content: space-between;
+        align-items: center;
+    }
+    h1{
+        margin-bottom: 0;
+    }
+}
+
+.info {
+    max-width: 564px;
+    width: 100%;
+}
+
+.info h2 {
+    font-size: 20px;
+    line-height: 150%;
+    font-style: italic;
+    color: var(--light-blue);
+    max-width: 564px;
+    width: 100%;
+
+}
+
+.tests {
+    height: 456px;
+    /* background-color: #35ec50; */
+    max-width: 564px;
+    width: 100%;
+}
+
+footer {
+    height: 280px;
+    padding-top: 32px;
+}
+
+footer p {
+    text-align: right;
+
 }

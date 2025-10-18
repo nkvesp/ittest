@@ -22,19 +22,30 @@
 
 ### Мета проєкту
 
-Users should be able to:
+Користувачі повинні мати можливість:
 
-- Select a quiz subject
-- Select a single answer from each question from a choice of four
-- See an error message when trying to submit an answer without making a selection
-- See if they have made a correct or incorrect choice when they submit an answer
-- Move on to the next question after seeing the question result
-- See a completed state with the score after the final question
-- Play again to choose another subject
-- View the optimal layout for the interface depending on their device's screen size
-- See hover and focus states for all interactive elements on the page
-- Navigate the entire app only using their keyboard
-- **Bonus**: Change the app's theme between light and dark
+- Обрати тему вікторини
+
+- Обрати одну відповідь на кожне запитання з чотирьох варіантів
+
+- Побачити повідомлення про помилку, якщо намагаються надіслати відповідь, не зробивши вибору
+
+- Побачити, чи була їхня відповідь правильною чи неправильною, після надсилання
+
+- Перейти до наступного запитання після перегляду результату попереднього
+
+- Побачити підсумковий екран із результатом після завершення вікторини
+
+- Грати знову, щоб обрати іншу тему
+
+- Бачити оптимальне розташування елементів інтерфейсу залежно від розміру екрана пристрою
+
+- Спостерігати ефекти наведення курсора та фокусування для всіх інтерактивних елементів сторінки
+
+- Керувати всім додатком лише за допомогою клавіатури
+
+Бонус: змінювати тему додатка між світлою та темною
+
 
 ### Загальний вигляд
 
@@ -48,6 +59,7 @@ Users should be able to:
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## Як я це створив
+### День 1 
 
 1. Створив базову структуру проєкта 
 2. Об'єднав підключенням необхідні файли 
@@ -56,6 +68,13 @@ Users should be able to:
 5. Виконав налаштування для публікації [проєкта в мережi](https://nkvesp.github.io/ittest/)
 6. Підлючено та активовано веб-шрифти  
 7. В кореневий селектор додав кольори як сss змінні 
+
+### День 2
+
+1. Додав назву до сторінок(title)
+2. Створив клас container(для контенту), додав базові семантичні теги(header,main,footer) до всіх сторінок
+3. Додав структуру та стилі елементам головної сторінки
+4. Перемикач кольорової теми та блок з назвами категорій тестів планую реалізувати на наступних кроках
 
 ### Built with
 
